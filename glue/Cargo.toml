@@ -8,4 +8,5 @@ repository = "https://github.com/rust-windowing/android-rs-glue"
 edition = "2018"
 
 [dependencies]
-android-ndk-sys = { git = "https://github.com/rust-windowing/android-ndk-rs" }
+#android-ndk-sys = { git = "https://github.com/rust-windowing/android-ndk-rs" }
+android-ndk-sys = { git = "https://github.com/katyo/android-ndk-rs" }
